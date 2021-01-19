@@ -11,6 +11,7 @@ export function allLongestStrings(inputArray: string[]): string[] {
   //     longestWords.push(word);
   //   }
   // });
+
   // return longestWords;
 
   const longestWords = inputArray.filter((word: string) => word.length === longestLength);
